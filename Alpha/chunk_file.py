@@ -24,7 +24,6 @@
 from rabin_fingerprint import byteWindowFingerprinter3, irreducible_polynomial, print_bits
 import sys
 import hashlib
-import matplotlib.pyplot as plt
 import time
 import datetime
 

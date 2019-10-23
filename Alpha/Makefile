@@ -12,6 +12,7 @@ decode:
 	python3 decode.py short.tar
 
 clean:
+	-gunzip short.tar.gz
 	-rm chunks.data
 	-rm short.tar.encoded short.tar.decoded
 	-rm -r -f __pycache__/
